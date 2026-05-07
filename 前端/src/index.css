@@ -1,0 +1,110 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #0a1628;
+}
+#root { min-height: 100vh; }
+
+/* Ant Design 科技蓝主题覆盖 */
+.ant-layout {
+  background: transparent !important;
+}
+.ant-menu-dark {
+  background: transparent !important;
+}
+.ant-table {
+  background: rgba(255, 255, 255, 0.03) !important;
+}
+.ant-table-thead > tr > th {
+  background: rgba(24, 144, 255, 0.15) !important;
+  color: #e8f4ff !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+.ant-table-tbody > tr > td {
+  border-color: rgba(255, 255, 255, 0.06) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+.ant-table-tbody > tr:hover > td {
+  background: rgba(24, 144, 255, 0.1) !important;
+}
+.ant-card {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 12px !important;
+}
+.ant-card-head {
+  color: #e8f4ff !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+.ant-tabs-tab {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #40a9ff !important;
+}
+.ant-tabs-ink-bar {
+  background: var(--tech-blue) !important;
+}
+.ant-tabs-nav::before {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+.ant-modal-content {
+  background: rgba(15, 30, 50, 0.95) !important;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(24, 144, 255, 0.3);
+  box-shadow: 0 0 30px rgba(24, 144, 255, 0.2);
+}
+.ant-modal-header {
+  background: transparent !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  color: #e8f4ff !important;
+}
+.ant-modal-title { color: #e8f4ff !important; }
+.ant-modal-close-x { color: rgba(255,255,255,0.7) !important; }
+.ant-form-item-label > label { color: rgba(255,255,255,0.85) !important; }
+.ant-select-dropdown {
+  background: rgba(15, 30, 50, 0.98) !important;
+  backdrop-filter: blur(20px);
+}
+.ant-picker-dropdown {
+  background: #fff !important;
+}
+/* 日期选择器：当月未选日期黑色，下月灰色 */
+.ant-picker-cell:not(.ant-picker-cell-in-view) .ant-picker-cell-inner {
+  color: #999 !important;
+}
+.ant-picker-cell-in-view:not(.ant-picker-cell-selected):not(.ant-picker-cell-range-start):not(.ant-picker-cell-range-end) .ant-picker-cell-inner {
+  color: #000 !important;
+}
+.ant-picker-content th { color: rgba(0,0,0,0.85) !important; }
+/* 单位/输入框字体高对比度 */
+.ant-select-selection-item, .ant-select-selection-placeholder,
+.ant-picker-input input, .ant-input {
+  color: #fff !important;
+}
+.ant-select-selection-placeholder, .ant-picker-input input::placeholder, .ant-input::placeholder {
+  color: rgba(255,255,255,0.6) !important;
+}
+/* 确认弹窗字体白色 */
+.ant-modal-confirm .ant-modal-confirm-title,
+.ant-modal-confirm .ant-modal-confirm-content {
+  color: #fff !important;
+}
+/* 头像下拉框：毛玻璃质感 + 黑色文字 */
+.ant-dropdown-menu {
+  background: rgba(255, 255, 255, 0.65) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(24, 144, 255, 0.25);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+.ant-dropdown-menu-item {
+  color: #000 !important;
+}
+.ant-dropdown-menu-item .ant-dropdown-menu-item-icon {
+  color: rgba(0, 0, 0, 0.75) !important;
+}
+.ant-dropdown-menu-item:hover {
+  background: rgba(24, 144, 255, 0.15) !important;
+}
