@@ -1,0 +1,12 @@
+{
+  "best_params": {
+    "tcnCengShu": 4,
+    "bilstmCengShu": 3,
+    "tcnYinCangWeiDu": 64,
+    "bilstmYinCangWeiDu": 64,
+    "zhuYiLiTouShu": 4,
+    "tuoQiLv": 0.2,
+    "piCiDaXiao": 256,
+    "xueXiLv": 0.005
+  }
+}
